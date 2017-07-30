@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0.user-scalable=no,width=device-width,initial-scale=1.0"/>
+	<title>我的订单</title>
+	<link rel="stylesheet" type="text/css" href="../css/index.css">
+	<link rel="stylesheet" type="text/css" href="../css/common.css">
+	<style>
+   .Myorder_wrap{width: 750px;height: 1500px;background: #fff;/*background: url(../images/我的订单.png) no-repeat;*/}
+   .Myorder_top{width: 750px;height: 190px;/*background: #fff;*/position: relative;}
+   .Myorder_Title{position: absolute;top: 66px;}
+   .Myorder_Title li{float: left; margin-left:20px;}
+   .Myorder_Title span{font-size: 35px;margin-left:250px;}
+   .Myorder_Title .li3{margin-left:250px; }
+
+   .Myorder_list{width: 750px;height: 63px;border: 1px solid #f5f5f5;position: absolute;top: 125px;line-height: 63px;}
+   .Myorder_list li{width: 20%;height: 63px;float: left;text-align: center;}
+   .Myorder_list  a{font-size: 26px;color: #888;}
+   .Myorder_list  a:hover{color: red;display: inline-block;border-bottom: 6px solid red;width: 80%;height: 63px;}
+	</style>
+</head>
+<body>
+<div class="Myorder_wrap">
+ <div class="Myorder_top">
+   <div class="Myorder_Title">
+   	<ul>
+   		<li ><a href="hideBar.html"><img src="../images/xiangzuo@2x.png" alt=""></a></li>
+   		<li><a href=""><span>我的订单</span></a></li>
+   		<li class="li3"><a href=""><img src="../images/ss@2x.png" alt=""></a></li>
+   	</ul>
+   </div>
+   
+    <div class="Myorder_list">
+    	<ul>
+    		<li><a href="Myorder1.html" target="myframe">全部</a></li>
+    		<li><a href="Myorder2.html" target="myframe">待付款</a></li>
+    		<li><a href="Myorder3.html" target="myframe">待收货</a></li>
+    		<li><a href="Myorder4.html" target="myframe">已完成</a></li>
+    		<li><a href="Myorder5.html" target="myframe">已取消</a></li>
+    	</ul>
+    </div>
+ </div>
+ 
+ <div class="Myorder_bottom">
+    <iframe src="Myorder1.html" frameborder="0" scrolling="no" width="100%" height="1500" name="myframe"></ifram>	
+ </div>
+
+
+</div>
+</body>
+</html>
